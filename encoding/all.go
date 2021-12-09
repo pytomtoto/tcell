@@ -15,8 +15,8 @@
 package encoding
 
 import (
-	"github.com/gdamore/encoding"
-	"github.com/gdamore/tcell/v2"
+	"github.com/pytomtoto/encoding"
+	"github.com/pytomtoto/tcell/v2"
 
 	"golang.org/x/text/encoding/charmap"
 	"golang.org/x/text/encoding/japanese"

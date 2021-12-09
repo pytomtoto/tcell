@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/gdamore/tcell/v2"
-	"github.com/gdamore/tcell/v2/views"
+	"github.com/pytomtoto/tcell/v2"
+	"github.com/pytomtoto/tcell/v2/views"
 )
 
 var app = &views.Application{}

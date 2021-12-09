@@ -19,7 +19,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/gdamore/tcell/v2"
+	"github.com/pytomtoto/tcell/v2"
 	"os"
 )
 

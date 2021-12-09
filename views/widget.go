@@ -15,7 +15,7 @@
 package views
 
 import (
-	"github.com/gdamore/tcell/v2"
+	"github.com/pytomtoto/tcell/v2"
 )
 
 // Widget is the base object that all onscreen elements implement.

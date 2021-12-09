@@ -4,15 +4,15 @@
 _Tcell_ is a _Go_ package that provides a cell based view for text terminals, like _XTerm_.
 It was inspired by _termbox_, but includes many additional improvements.
 
-[![Linux](https://img.shields.io/github/workflow/status/gdamore/tcell/linux?logoColor=grey&logo=linux&label=)](https://github.com/gdamore/tcell/actions/workflows/linux.yml)
-[![Windows](https://img.shields.io/github/workflow/status/gdamore/tcell/windows?logoColor=grey&logo=windows&label=)](https://github.com/gdamore/tcell/actions/workflows/windows.yml)
-[![Apache License](https://img.shields.io/github/license/gdamore/tcell.svg?logoColor=silver&logo=opensourceinitiative&color=blue&label=)](https://github.com/gdamore/tcell/blob/master/LICENSE)
-[![Docs](https://img.shields.io/badge/godoc-reference-blue.svg?label=&logo=go)](https://pkg.go.dev/github.com/gdamore/tcell/v2)
+[![Linux](https://img.shields.io/github/workflow/status/pytomtoto/tcell/linux?logoColor=grey&logo=linux&label=)](https://github.com/pytomtoto/tcell/actions/workflows/linux.yml)
+[![Windows](https://img.shields.io/github/workflow/status/pytomtoto/tcell/windows?logoColor=grey&logo=windows&label=)](https://github.com/pytomtoto/tcell/actions/workflows/windows.yml)
+[![Apache License](https://img.shields.io/github/license/pytomtoto/tcell.svg?logoColor=silver&logo=opensourceinitiative&color=blue&label=)](https://github.com/pytomtoto/tcell/blob/master/LICENSE)
+[![Docs](https://img.shields.io/badge/godoc-reference-blue.svg?label=&logo=go)](https://pkg.go.dev/github.com/pytomtoto/tcell/v2)
 [![Discord](https://img.shields.io/discord/639503822733180969?label=&logo=discord)](https://discord.gg/urTTxDN)
-[![Coverage](https://img.shields.io/codecov/c/github/gdamore/tcell?logoColor=grey&logo=codecov&label=)](https://codecov.io/gh/gdamore/tcell)
+[![Coverage](https://img.shields.io/codecov/c/github/pytomtoto/tcell?logoColor=grey&logo=codecov&label=)](https://codecov.io/gh/pytomtoto/tcell)
 
 NOTE: This is version 2 of _Tcell_.  There are breaking changes relative to version 1.
-Version 1.x remains available using the import `github.com/gdamore/tcell`.
+Version 1.x remains available using the import `github.com/pytomtoto/tcell`.
 
 ## Tutorial
 
@@ -20,10 +20,10 @@ A brief, and still somewhat rough, [tutorial](TUTORIAL.md) is available.
 
 ## Examples
 
-* [proxima5](https://github.com/gdamore/proxima5) - space shooter ([video](https://youtu.be/jNxKTCmY_bQ))
-* [govisor](https://github.com/gdamore/govisor) - service management UI ([screenshot](http://2.bp.blogspot.com/--OsvnfzSNow/Vf7aqMw3zXI/AAAAAAAAARo/uOMtOvw4Sbg/s1600/Screen%2BShot%2B2015-09-20%2Bat%2B9.08.41%2BAM.png))
+* [proxima5](https://github.com/pytomtoto/proxima5) - space shooter ([video](https://youtu.be/jNxKTCmY_bQ))
+* [govisor](https://github.com/pytomtoto/govisor) - service management UI ([screenshot](http://2.bp.blogspot.com/--OsvnfzSNow/Vf7aqMw3zXI/AAAAAAAAARo/uOMtOvw4Sbg/s1600/Screen%2BShot%2B2015-09-20%2Bat%2B9.08.41%2BAM.png))
 * mouse demo - included mouse test ([screenshot](http://2.bp.blogspot.com/-fWvW5opT0es/VhIdItdKqJI/AAAAAAAAATE/7Ojc0L1SpB0/s1600/Screen%2BShot%2B2015-10-04%2Bat%2B11.47.13%2BPM.png))
-* [gomatrix](https://github.com/gdamore/gomatrix) - converted from Termbox
+* [gomatrix](https://github.com/pytomtoto/gomatrix) - converted from Termbox
 * [micro](https://github.com/zyedidia/micro/) - lightweight text editor with syntax-highlighting and themes
 * [godu](https://github.com/viktomas/godu) - utility to discover large files/folders
 * [tview](https://github.com/rivo/tview/) - rich interactive widgets
@@ -126,7 +126,7 @@ fired up with cmd.exe or PowerShell works fine however.)
 ## _Termbox_ Compatibility
 
 A compatibility layer for _termbox_ is provided in the `compat` directory.
-To use it, try importing `github.com/gdamore/tcell/termbox` instead.
+To use it, try importing `github.com/pytomtoto/tcell/termbox` instead.
 Most _termbox-go_ programs will probably work without further modification.
 
 ## Working With Unicode

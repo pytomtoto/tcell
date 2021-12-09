@@ -2,7 +2,7 @@
 
 package vt220
 
-import "github.com/gdamore/tcell/v2/terminfo"
+import "github.com/pytomtoto/tcell/v2/terminfo"
 
 func init() {
 

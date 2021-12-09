@@ -17,7 +17,7 @@ package views
 import (
 	"sync"
 
-	"github.com/gdamore/tcell/v2"
+	"github.com/pytomtoto/tcell/v2"
 )
 
 // TextBar is a Widget that provides a single line of text, but with

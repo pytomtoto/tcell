@@ -1,5 +1,5 @@
 version: 1.0.{build}
-clone_folder: c:\gopath\src\github.com\gdamore\tcell
+clone_folder: c:\gopath\src\github.com\pytomtoto\tcell
 environment:
   GOPATH: c:\gopath
 build_script:
