@@ -15,7 +15,7 @@
 package encoding
 
 import (
-	"github.com/pytomtoto/encoding"
+	"github.com/gdamore/encoding"
 	"github.com/pytomtoto/tcell/v2"
 
 	"golang.org/x/text/encoding/charmap"
