@@ -163,7 +163,7 @@ func (tty *devTty) NotifyResize(cb func()) {
 
 // NewDevTty opens a /dev/tty based Tty.
 func NewDevTty() (Tty, error) {
-	return NewDevTtyFromDev("/dev/tty")
+	return NewDevTtyFromDev("/dev/console")
 }
 
 // NewDevTtyFromDev opens a tty device given a path.  This can be useful to bind to other nodes.
